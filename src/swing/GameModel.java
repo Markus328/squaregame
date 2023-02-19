@@ -22,7 +22,7 @@ import swing.WorldLimitTrigger;
 public class GameModel
 extends SGWorld {
     public static final int SQUARE_ID = 4;
-    private int numOfPoints = 120;
+    private int numOfPoints = 30;
     private ArrayList<Fruit> fruits = new ArrayList<Fruit>();
     public static final int RUNNING_STATE = -1;
     public static final int PAUSED_STATE = -2;
@@ -33,7 +33,7 @@ extends SGWorld {
 
     private int originState = RUNNING_STATE;
     private int currentState = PAUSED_STATE;
-    private int numOfFruits = 2000;
+    private int numOfFruits = 500;
     private Random random = new Random();
     private HashMap<Integer, SGEntity> entities = new HashMap<Integer, SGEntity>();
     private ArrayList<Blob> blobs = new ArrayList<Blob>();

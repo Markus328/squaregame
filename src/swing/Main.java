@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         final SGFrame frame = new SGFrame("Square Game");
-        GameModel model = new GameModel(new Dimension(28000, 28000));
+        GameModel model = new GameModel(new Dimension(9000, 9000));
         final Panel panel = new Panel(model, frame);
         SwingUtilities.invokeLater(new Runnable(){
 
